@@ -29,7 +29,7 @@ a{
     display: flex;
 }
 .menuBar .menu ul li a{
-    padding: 20px;
+    padding: 0 20px;
     color: #181818;
     font-weight:400;
     font-size: 20px;
@@ -149,44 +149,210 @@ a{
 
 .allBox{
     display: flex;
-    margin: 0 20px;
+    margin: 0 20px; 
+    justify-content:space-between;
+    
 }
-.boxText p{
+.boxA p{
     line-height: 28px;
     font-size: 16px;
     
 
 }
-.boxText h3{
+.boxB p{
+    line-height: 28px;
+    font-size: 16px;
+    
+
+}
+.boxC p{
+    line-height: 28px;
+    font-size: 16px;
+    
+
+}
+.boxD p{
+    line-height: 28px;
+    font-size: 16px;
+    
+
+}
+.boxA h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+.boxB h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+.boxC h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+.boxD h3{
     font-size: 20px;
     font-weight: 600;
     padding: 20px 0;
 
 }
 .boxOne{
-    background-color:#a17575;
+    background-color:#fff;
     width: 200px;
     border-radius: 5px;
     padding: 20px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .boxTwo{
-    background-color:#a17575;
+    background-color:#fff;
     width: 200px;
     border-radius: 5px;
     padding: 20px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .boxThree{
-    background-color:#a17575;
+    background-color:#fff;
     width: 200px;
     border-radius: 5px;
     padding: 20px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .boxFour{
-    background-color:#a17575;
+    background-color:#fff;
     width: 200px;
     border-radius: 5px;
     padding: 20px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.3);
 }
+/* resume part start */
+.sum{
+   padding: 100px 0;
+   text-align: center;
+ 
+}
+.sum h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818; 
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.childOne{
+    width: 500px;
+}
+.childTwo{
+    width: 500px;
+}
+
+.childOne h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    padding: 30px 0;
+}
+.childTwo h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    padding: 30px 0;
+}
+.childOne h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.childTwo h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.childOne .resu{
+   font-size: 20px;
+   font-weight: 600;
+    color: #474747;
+    padding: 10px 0;
+    
+
+}
+.childTwo .resuT{
+   font-size: 20px;
+   font-weight: 600;
+    color: #474747; 
+    padding: 10px 0;
+}
+.childOne p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding: 10px 0;
+    position: relative;
+    
+}.childTwo p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding: 10px 0;
+}
+ /* .childOne p::before{
+   content:"";
+    background-color: #181818;
+    position:absolute;
+    height:2px;
+    width:500px; 
+}  */
+
+#resumePart .button{
+    text-align: center;
+    padding-top: 40px; 
+}
+
+
+#footerPart{
+    background-color: #fff8f3;
+    padding: 200px 0;
+}
+.contact{
+    width: 520px;
+    /* padding: 20px 0; */
+}
+.contact h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.contact p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #181818;
+    padding: 30px 0;
+}
+.contact a{
+    color: #FD6E0A;
+    padding: 0 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.messege h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+/* .messege .button a{
+    font-size: 20px;
+    font-weight: 700;
+} */
+
+
 
 
 
