@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    outline: none;
 }
 ul,ol{
     list-style-type: none;
@@ -14,6 +15,7 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
+/* header part start */
 #headerPart{
     padding: 30px 0;
     position: fixed;
@@ -35,6 +37,10 @@ a{
     font-size: 20px;
     transition: .4s;
 }
+.menuBar .menu ul li a:hover{
+    color:#FD6E0A;
+
+}
 .menuBar .logo{
     width: 60%;
 }
@@ -52,10 +58,7 @@ a{
     border-radius: 5px;
     color: #fff;
 }
-.menuBar .menu ul li a:hover{
-    color:#FD6E0A;
-
-}
+/* header part end */
 #bannerPart{
     background: url(../images/Group\ 3988.png);
     padding-bottom: 260px;
@@ -102,7 +105,7 @@ a{
 }
 
 
-.aboutContent{
+.infoPart{
     padding: 150px 0;
     background-color: #fff8f3;
     margin: 130px 0;
@@ -119,11 +122,24 @@ a{
     padding: 20px 0;
     font-size: 18px;
 }
-
-    
 .part{
-   display: flex;
-   font-size: 20px;
+    display: flex; 
+    justify-content: space-between;
+    width: 782px;
+      margin: 0 auto;
+      padding-top:20px;
+    /* text-align: center; */
+    
+} 
+.part p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.part h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
 }
 
 
@@ -243,12 +259,19 @@ a{
 .parent{
     display: flex;
     justify-content: space-between;
+    
 }
 .childOne{
     width: 500px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .childTwo{
     width: 500px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .childOne h3{
@@ -300,21 +323,14 @@ a{
     color: #474747;
     padding: 10px 0;
 }
- /* .childOne p::before{
-   content:"";
-    background-color: #181818;
-    position:absolute;
-    height:2px;
-    width:500px; 
-}  */
 
 #resumePart .button{
     text-align: center;
     padding-top: 40px; 
 }
 
-
-#footerPart{
+/* footer part */
+footer{
     background-color: #fff8f3;
     padding: 200px 0;
 }
@@ -326,6 +342,7 @@ a{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    
 }
 .contact p{
     font-size: 16px;
@@ -338,22 +355,23 @@ a{
     color: #FD6E0A;
     padding: 0 10px;
 }
-.footer{
+ .footerPart{
     display: flex;
-    justify-content: space-between;
-}
-.messege h2{
+    justify-content: space-between; 
+} 
+.message h2{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    padding-bottom: 10px;
 }
-/* .messege .button a{
-    font-size: 20px;
-    font-weight: 700;
-} */
 
-
-
+.message .common{
+    width: 461px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+}  
 
 
 
